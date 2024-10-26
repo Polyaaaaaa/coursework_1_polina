@@ -98,12 +98,12 @@ if top_vacancies:
 else:
     print("Вакансии не найдены по заданным критериям.")
 
-if __name__ == "__main__":
-    hh = HeadHunterAPI("")
-    hh_vacancies = hh.load_vacancies(input())
-    filter_vacancies()
-    get_vacancies_by_salary()
-    sort_vacancies()
-    get_top_vacancies()
-    print_vacancies()
+# if __name__ == "__main__":
+#     hh = HeadHunterAPI("")
+#     hh_vacancies = hh.load_vacancies(input())
+#     filter_vacancies(vacancies_list)
+#     get_vacancies_by_salary(vacancies_list)
+#     sort_vacancies(vacancies_list)
+#     get_top_vacancies(vacancies_list, 3)
+#     print_vacancies(vacancies_list)
 
